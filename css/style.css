@@ -9,7 +9,10 @@
 html,
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
+
 
 img {
     max-width: 100%;
@@ -41,6 +44,8 @@ img {
     align-items: center;
 }
 
+
+
 /* padding */
 
 .pad-s {
@@ -58,6 +63,17 @@ img {
     color: white;
 }
 
+.txt.red {
+    color: red
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.caps {
+    text-transform: uppercase;
+}
 
 /* UTILITIES*/
 
@@ -91,4 +107,21 @@ header {
 
 nav li {
     margin-right: 10px;
+}
+
+
+/* main */
+
+
+.discount-label {
+    background-color: red;
+    margin-right: 5px;
+    padding: 4px 10px;
+
+}
+
+
+.eco-label {
+    background-color: green;
+    padding: 4px 10px;
 }
