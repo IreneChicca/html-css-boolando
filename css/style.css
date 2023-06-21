@@ -93,10 +93,7 @@ a {
     text-decoration: none;
 }
 
-
-
 /* navbar */
-
 
 header {
     background-color: #ff6900;
@@ -133,6 +130,7 @@ nav i {
     background-color: red;
     margin-right: 5px;
     padding: 4px 10px;
+    z-index: 3;
 
 }
 
@@ -140,6 +138,7 @@ nav i {
 .eco-label {
     background-color: green;
     padding: 4px 10px;
+    z-index: 3;
 }
 
 .label {
@@ -156,7 +155,6 @@ nav i {
     font-size: 2em;
     top: 10px;
     right: 0;
-
 
 }
 
@@ -177,4 +175,22 @@ footer i {
     border-radius: 5px;
     font-size: 0.8rem;
     margin: 2px;
+}
+
+
+
+/* effetti hover*/
+
+.pic-b {
+    display: none;
+}
+
+
+.item:hover .pic-b {
+    display: block;
+}
+
+
+.item:hover .pic {
+    display: none;
 }
