@@ -194,3 +194,10 @@ footer i {
 .item:hover .pic {
     display: none;
 }
+
+
+
+.heart:hover {
+
+    color: red;
+}
