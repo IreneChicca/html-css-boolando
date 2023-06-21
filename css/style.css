@@ -93,9 +93,7 @@ a {
     text-decoration: none;
 }
 
-i {
-    margin-left: 10px;
-}
+
 
 /* navbar */
 
@@ -116,6 +114,10 @@ header {
 
 nav li {
     margin-right: 10px;
+}
+
+nav i {
+    margin-left: 10px;
 }
 
 
@@ -166,4 +168,13 @@ nav li {
 footer {
     background-color: #1a1a1a;
     width: 100%;
+}
+
+footer i {
+    padding: 3px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 2px;
 }
